@@ -36,3 +36,5 @@ int main(void)
      printf("t: %s\n", t)
 }
  
+
+ // rememebr to free memory

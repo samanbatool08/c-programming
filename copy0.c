@@ -5,10 +5,10 @@
 int main(void) 
 {
     // get a string
-    string o = get_string("o: ")
+    char *o = get_string("o: ")
 
     // copy string's address
-    string v = o
+    char *v = o
 
     // capitalize first letter in string
     if (strlen(t) > 0)

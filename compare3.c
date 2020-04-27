@@ -1,26 +1,25 @@
-#include <cs50.h> //getstring func
 #include <string.h> //strlen func
 #include <stdio.h>
 
-bool compare_strings(string a, string s);
+bool compare_strings(char *a, char *s);
 
 
 int main(void)
 {
-    string s = get_string("s: ");
-    string t = get_string("t: ");
+    char *s = "DAVID";
+    char *t = "DAVID";
 
     if (compare_strings(s, t))
     {
-        printf("same\n")
+        printf("same\n");
     }
     else
     {
-        printf("different\n")
+        printf("different\n");
     }
 }
 
-bool compare_strings(string a, string s)
+bool compare_strings(char *a, char *s)
     //compare length first
 {
     if (strlen(a) != strlen(b))

@@ -17,6 +17,6 @@ int main(void)
 }
 
 // this will always defualt to different because both strings are being stored in different location in memory. even if it is the same word. 
-// reference RAM and memory. strings are returned by their address (char stars) because it is not a data type like int or float 
+// reference RAM and memory. strings are returned by their address (char *) because it is not a data type like int or float 
 
 //see compare2 for correct function 
